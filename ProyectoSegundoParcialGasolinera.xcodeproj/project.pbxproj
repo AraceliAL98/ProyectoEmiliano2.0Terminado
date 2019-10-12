@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D02368F234E8A0900D0F121 /* Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D02368E234E8A0900D0F121 /* Auto.swift */; };
+		3D023691234E8F6000D0F121 /* CeldaCarrosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D023690234E8F6000D0F121 /* CeldaCarrosController.swift */; };
+		3D023693234E992600D0F121 /* NuevoCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D023692234E992600D0F121 /* NuevoCarroController.swift */; };
+		3D1982A923526A0A008EDABE /* CargarAutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1982A823526A0A008EDABE /* CargarAutos.swift */; };
+		3D1982AB23526A3D008EDABE /* Carga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1982AA23526A3D008EDABE /* Carga.swift */; };
+		3D1982AD23526A87008EDABE /* CargasCeldaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1982AC23526A87008EDABE /* CargasCeldaController.swift */; };
+		3D1982AF23526DA7008EDABE /* NuevaCargaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1982AE23526DA7008EDABE /* NuevaCargaController.swift */; };
+		3D70B06A234D24A1008574FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70B069234D24A1008574FD /* AppDelegate.swift */; };
+		3D70B06C234D24A1008574FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70B06B234D24A1008574FD /* ViewController.swift */; };
+		3D70B06F234D24A1008574FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D70B06D234D24A1008574FD /* Main.storyboard */; };
+		3D70B071234D24AA008574FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D70B070234D24AA008574FD /* Assets.xcassets */; };
+		3D70B074234D24AA008574FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D70B072234D24AA008574FD /* LaunchScreen.storyboard */; };
+		3D70B07F234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70B07E234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.swift */; };
+		3D70B08A234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70B089234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D70B07B234D24AB008574FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D70B05E234D24A0008574FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D70B065234D24A0008574FD;
+			remoteInfo = ProyectoSegundoParcialGasolinera;
+		};
+		3D70B086234D24AB008574FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D70B05E234D24A0008574FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D70B065234D24A0008574FD;
+			remoteInfo = ProyectoSegundoParcialGasolinera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D02368E234E8A0900D0F121 /* Auto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto.swift; sourceTree = "<group>"; };
+		3D023690234E8F6000D0F121 /* CeldaCarrosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCarrosController.swift; sourceTree = "<group>"; };
+		3D023692234E992600D0F121 /* NuevoCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoCarroController.swift; sourceTree = "<group>"; };
+		3D1982A823526A0A008EDABE /* CargarAutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargarAutos.swift; sourceTree = "<group>"; };
+		3D1982AA23526A3D008EDABE /* Carga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carga.swift; sourceTree = "<group>"; };
+		3D1982AC23526A87008EDABE /* CargasCeldaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargasCeldaController.swift; sourceTree = "<group>"; };
+		3D1982AE23526DA7008EDABE /* NuevaCargaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevaCargaController.swift; sourceTree = "<group>"; };
+		3D70B066234D24A0008574FD /* ProyectoSegundoParcialGasolinera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoSegundoParcialGasolinera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D70B069234D24A1008574FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D70B06B234D24A1008574FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D70B06E234D24A1008574FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D70B070234D24AA008574FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D70B073234D24AA008574FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D70B075234D24AA008574FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D70B07A234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoSegundoParcialGasolineraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D70B07E234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoSegundoParcialGasolineraTests.swift; sourceTree = "<group>"; };
+		3D70B080234D24AB008574FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D70B085234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoSegundoParcialGasolineraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D70B089234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoSegundoParcialGasolineraUITests.swift; sourceTree = "<group>"; };
+		3D70B08B234D24AB008574FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D70B063234D24A0008574FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D70B077234D24AB008574FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D70B082234D24AB008574FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D70B05D234D24A0008574FD = {
+			isa = PBXGroup;
+			children = (
+				3D70B068234D24A0008574FD /* ProyectoSegundoParcialGasolinera */,
+				3D70B07D234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests */,
+				3D70B088234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests */,
+				3D70B067234D24A0008574FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D70B067234D24A0008574FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D70B066234D24A0008574FD /* ProyectoSegundoParcialGasolinera.app */,
+				3D70B07A234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.xctest */,
+				3D70B085234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D70B068234D24A0008574FD /* ProyectoSegundoParcialGasolinera */ = {
+			isa = PBXGroup;
+			children = (
+				3D1982AE23526DA7008EDABE /* NuevaCargaController.swift */,
+				3D023692234E992600D0F121 /* NuevoCarroController.swift */,
+				3D70B069234D24A1008574FD /* AppDelegate.swift */,
+				3D70B06B234D24A1008574FD /* ViewController.swift */,
+				3D70B06D234D24A1008574FD /* Main.storyboard */,
+				3D70B070234D24AA008574FD /* Assets.xcassets */,
+				3D70B072234D24AA008574FD /* LaunchScreen.storyboard */,
+				3D70B075234D24AA008574FD /* Info.plist */,
+				3D02368E234E8A0900D0F121 /* Auto.swift */,
+				3D023690234E8F6000D0F121 /* CeldaCarrosController.swift */,
+				3D1982A823526A0A008EDABE /* CargarAutos.swift */,
+				3D1982AA23526A3D008EDABE /* Carga.swift */,
+				3D1982AC23526A87008EDABE /* CargasCeldaController.swift */,
+			);
+			path = ProyectoSegundoParcialGasolinera;
+			sourceTree = "<group>";
+		};
+		3D70B07D234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D70B07E234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.swift */,
+				3D70B080234D24AB008574FD /* Info.plist */,
+			);
+			path = ProyectoSegundoParcialGasolineraTests;
+			sourceTree = "<group>";
+		};
+		3D70B088234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D70B089234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.swift */,
+				3D70B08B234D24AB008574FD /* Info.plist */,
+			);
+			path = ProyectoSegundoParcialGasolineraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D70B065234D24A0008574FD /* ProyectoSegundoParcialGasolinera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D70B08E234D24AB008574FD /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcialGasolinera" */;
+			buildPhases = (
+				3D70B062234D24A0008574FD /* Sources */,
+				3D70B063234D24A0008574FD /* Frameworks */,
+				3D70B064234D24A0008574FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoSegundoParcialGasolinera;
+			productName = ProyectoSegundoParcialGasolinera;
+			productReference = 3D70B066234D24A0008574FD /* ProyectoSegundoParcialGasolinera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D70B079234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D70B091234D24AB008574FD /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcialGasolineraTests" */;
+			buildPhases = (
+				3D70B076234D24AB008574FD /* Sources */,
+				3D70B077234D24AB008574FD /* Frameworks */,
+				3D70B078234D24AB008574FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D70B07C234D24AB008574FD /* PBXTargetDependency */,
+			);
+			name = ProyectoSegundoParcialGasolineraTests;
+			productName = ProyectoSegundoParcialGasolineraTests;
+			productReference = 3D70B07A234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D70B084234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D70B094234D24AB008574FD /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcialGasolineraUITests" */;
+			buildPhases = (
+				3D70B081234D24AB008574FD /* Sources */,
+				3D70B082234D24AB008574FD /* Frameworks */,
+				3D70B083234D24AB008574FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D70B087234D24AB008574FD /* PBXTargetDependency */,
+			);
+			name = ProyectoSegundoParcialGasolineraUITests;
+			productName = ProyectoSegundoParcialGasolineraUITests;
+			productReference = 3D70B085234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D70B05E234D24A0008574FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3D70B065234D24A0008574FD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3D70B079234D24AB008574FD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3D70B065234D24A0008574FD;
+					};
+					3D70B084234D24AB008574FD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3D70B065234D24A0008574FD;
+					};
+				};
+			};
+			buildConfigurationList = 3D70B061234D24A0008574FD /* Build configuration list for PBXProject "ProyectoSegundoParcialGasolinera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D70B05D234D24A0008574FD;
+			productRefGroup = 3D70B067234D24A0008574FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D70B065234D24A0008574FD /* ProyectoSegundoParcialGasolinera */,
+				3D70B079234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests */,
+				3D70B084234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D70B064234D24A0008574FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D70B074234D24AA008574FD /* LaunchScreen.storyboard in Resources */,
+				3D70B071234D24AA008574FD /* Assets.xcassets in Resources */,
+				3D70B06F234D24A1008574FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D70B078234D24AB008574FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D70B083234D24AB008574FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D70B062234D24A0008574FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1982A923526A0A008EDABE /* CargarAutos.swift in Sources */,
+				3D1982AB23526A3D008EDABE /* Carga.swift in Sources */,
+				3D1982AF23526DA7008EDABE /* NuevaCargaController.swift in Sources */,
+				3D70B06C234D24A1008574FD /* ViewController.swift in Sources */,
+				3D02368F234E8A0900D0F121 /* Auto.swift in Sources */,
+				3D1982AD23526A87008EDABE /* CargasCeldaController.swift in Sources */,
+				3D023691234E8F6000D0F121 /* CeldaCarrosController.swift in Sources */,
+				3D70B06A234D24A1008574FD /* AppDelegate.swift in Sources */,
+				3D023693234E992600D0F121 /* NuevoCarroController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D70B076234D24AB008574FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D70B07F234D24AB008574FD /* ProyectoSegundoParcialGasolineraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D70B081234D24AB008574FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D70B08A234D24AB008574FD /* ProyectoSegundoParcialGasolineraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D70B07C234D24AB008574FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D70B065234D24A0008574FD /* ProyectoSegundoParcialGasolinera */;
+			targetProxy = 3D70B07B234D24AB008574FD /* PBXContainerItemProxy */;
+		};
+		3D70B087234D24AB008574FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D70B065234D24A0008574FD /* ProyectoSegundoParcialGasolinera */;
+			targetProxy = 3D70B086234D24AB008574FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D70B06D234D24A1008574FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D70B06E234D24A1008574FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D70B072234D24AA008574FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D70B073234D24AA008574FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D70B08C234D24AB008574FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D70B08D234D24AB008574FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D70B08F234D24AB008574FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoSegundoParcialGasolinera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.ProyectoSegundoParcialGasolinerasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D70B090234D24AB008574FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoSegundoParcialGasolinera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.ProyectoSegundoParcialGasolinerasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D70B092234D24AB008574FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoSegundoParcialGasolineraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.ProyectoSegundoParcialGasolineraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoSegundoParcialGasolinera.app/ProyectoSegundoParcialGasolinera";
+			};
+			name = Debug;
+		};
+		3D70B093234D24AB008574FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoSegundoParcialGasolineraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.ProyectoSegundoParcialGasolineraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoSegundoParcialGasolinera.app/ProyectoSegundoParcialGasolinera";
+			};
+			name = Release;
+		};
+		3D70B095234D24AB008574FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoSegundoParcialGasolineraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.ProyectoSegundoParcialGasolineraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoSegundoParcialGasolinera;
+			};
+			name = Debug;
+		};
+		3D70B096234D24AB008574FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoSegundoParcialGasolineraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.ProyectoSegundoParcialGasolineraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoSegundoParcialGasolinera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D70B061234D24A0008574FD /* Build configuration list for PBXProject "ProyectoSegundoParcialGasolinera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D70B08C234D24AB008574FD /* Debug */,
+				3D70B08D234D24AB008574FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D70B08E234D24AB008574FD /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcialGasolinera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D70B08F234D24AB008574FD /* Debug */,
+				3D70B090234D24AB008574FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D70B091234D24AB008574FD /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcialGasolineraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D70B092234D24AB008574FD /* Debug */,
+				3D70B093234D24AB008574FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D70B094234D24AB008574FD /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcialGasolineraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D70B095234D24AB008574FD /* Debug */,
+				3D70B096234D24AB008574FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D70B05E234D24A0008574FD /* Project object */;
+}
